@@ -1,0 +1,7 @@
+{
+    "dbname": "postgres",
+    "user": "cliengo",
+    "password": "cliengo",
+    "host": "34.31.205.214", 
+    "port": "5432"
+ }
