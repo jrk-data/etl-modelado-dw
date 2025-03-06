@@ -1,11 +1,5 @@
 
-![Image](https://github.com/user-attachments/assets/96631783-2758-4ea3-9130-2ddd85c0e41d)
-
-
-
-![Image](https://github.com/user-attachments/assets/96631783-2758-4ea3-9130-2ddd85c0e41d)
-
-
+![Image](https://github.com/jrk-data/etl-modelado-dw/blob/3cee649edbe1f8620b0e063652d44b6551d11f13/img/logo.png)
 
 # Proyecto de Ingesta y Modelado de Datos para un Petshop
 
@@ -34,11 +28,7 @@ Este proyecto consiste en la ingesta, transformación y modelado de datos proven
      - Uso de **Stored Procedures y Triggers** para la migración ODS → DW.
      
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/bb2fd99c-abc7-47b3-9d68-a7c09c953845" width="600">
-</div>
-     
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/bb2fd99c-abc7-47b3-9d68-a7c09c953845" width="600">
+  <img src="https://github.com/jrk-data/etl-modelado-dw/blob/3cee649edbe1f8620b0e063652d44b6551d11f13/img/flujo.png" width="600">
 </div>
 
 4. **Visualización en Looker Studio**:
@@ -47,18 +37,13 @@ Este proyecto consiste en la ingesta, transformación y modelado de datos proven
    - **Dashboard disponible en**: [Looker Studio](https://lookerstudio.google.com/u/0/reporting/0ae8bfcb-d3eb-496a-895e-1735ed349c91/page/EBiaE)
   
 
-<div align="center">
-	<a href="https://lookerstudio.google.com/u/0/reporting/0ae8bfcb-d3eb-496a-895e-1735ed349c91/page/EBiaE">
-		<img src="https://github.com/user-attachments/assets/874e383a-11a8-4ffe-af5c-447b625e0973" width="600" >	
-	</a>
-</div>
-  
 
 <div align="center">
 	<a href="https://lookerstudio.google.com/u/0/reporting/0ae8bfcb-d3eb-496a-895e-1735ed349c91/page/EBiaE">
-		<img src="https://github.com/user-attachments/assets/874e383a-11a8-4ffe-af5c-447b625e0973" width="600" >	
+		<img src="https://github.com/jrk-data/etl-modelado-dw/blob/3cee649edbe1f8620b0e063652d44b6551d11f13/img/Screenshot%20from%202025-03-05%2022-04-49.png" width="600" >	
 	</a>
 </div>
+
 
 
 ## 📊 1era Etapa - Modelo de Datos (STG)
@@ -460,8 +445,9 @@ CREATE TABLE ventas (
 
 ### DER Modelo estrella final del Data Warehouse
 
-![Image](https://github.com/user-attachments/assets/f8ecfb05-2b28-4bcc-bbd1-da663c2b94f8)
-![Image](https://github.com/user-attachments/assets/f8ecfb05-2b28-4bcc-bbd1-da663c2b94f8)
+
+![Image](https://github.com/jrk-data/etl-modelado-dw/blob/3cee649edbe1f8620b0e063652d44b6551d11f13/img/dw.png)
+
 
 ## 🔧 Tecnologías Utilizadas
 - **Docker**: Contenerización del entorno.
