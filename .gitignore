@@ -1,2 +1,2 @@
-logs
-keys/credencial_bbdd.json
+logs/
+keys/*.json

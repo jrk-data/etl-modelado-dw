@@ -48,26 +48,6 @@ services:
     networks:
       - airflow-network  # 🔑 Misma red
 
-  postgres-proyecto:
-    image: postgres:13
-    environment:
-      POSTGRES_USER: cliengo
-      POSTGRES_PASSWORD: test
-      POSTGRES_DB: petshop
-    volumes:
-      - postgres-proyecto-data:/var/lib/postgresql/data
-      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
-    ports:
-      - "5433:5432"  # 🔑 Usar mismo puerto interno
-    healthcheck:
-      test: ["CMD", "pg_isready", "-U", "cliengo"]
-      interval: 10s
-      retries: 5
-      start_period: 5s
-    restart: always
-    networks:
-      - airflow-network  # 🔑 Misma red
-
   redis:
     image: redis:7.2-bookworm
     expose:
@@ -127,7 +107,6 @@ services:
 
 volumes:
   postgres-db-volume:
-  postgres-proyecto-data:
 
 networks:
   airflow-network:
