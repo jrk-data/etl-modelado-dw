@@ -1,6 +1,4 @@
 
-![Image](https://github.com/jrk-data/etl-modelado-dw/blob/3cee649edbe1f8620b0e063652d44b6551d11f13/img/logo.png)
-
 # Proyecto de Ingesta y Modelado de Datos para un Petshop
 
 
